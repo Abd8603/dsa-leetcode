@@ -11,7 +11,7 @@ public class LinearSearch {
         return -1;
     }
 
-    // Example usage
+    // Main method to test the linear search implementation
     public static void main(String[] args) {
         int[] numbers = {4, 2, 7, 1, 9, 3};
         int target = 7;

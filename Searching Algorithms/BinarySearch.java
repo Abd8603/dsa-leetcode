@@ -26,10 +26,12 @@ public class BinarySearch {
         return -1;
     }
     
+    // Main method to test the binary search implementation
+    // The array must be sorted for binary search to work correctly
     public static void main(String[] args) {
 
         int[] numbers = {1,7,8,9,10,11,12,13,14,15};
-        int target = 7;
+        int target = 12;
         int result = binarySearch(numbers, target);
 
         if (result != -1) {
